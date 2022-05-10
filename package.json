@@ -1,5 +1,5 @@
 {
-  "name": "svelte-media",
+  "name": "@spezifisch/svelte-media",
   "version": "0.1.5",
   "main": "dist/svelte-media.js",
   "module": "dist/svelte-media.mjs",
@@ -50,39 +50,32 @@
     }
   },
   "peerDependencies": {
-    "svelte": "^3.14.1"
+    "svelte": "^3.48.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "@types/estree": "0.0.39",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@types/estree": "0.0.51",
     "@types/intl": "^1.2.0",
-    "@types/jest": "^24.0.23",
+    "@types/jest": "^24.9.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.9.0",
-    "conventional-changelog-cli": "^2.0.28",
-    "eslint": "^6.6.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^6.8.0",
     "jest": "^24.9.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.19.1",
-    "rollup": "^1.26.5",
+    "rollup": "^1.32.1",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-terser": "^5.1.2",
-    "rollup-plugin-typescript2": "^0.25.2",
-    "sass": "^1.23.6",
-    "svelte": "^3.14.1",
-    "svelte-preprocess": "^3.2.6",
-    "ts-jest": "^24.1.0",
-    "typescript": "^3.7.2"
+    "rollup-plugin-terser": "^5.3.1",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "sass": "^1.51.0",
+    "svelte": "^3.48.0",
+    "svelte-preprocess": "^3.9.12",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.9.10"
   },
   "dependencies": {
-    "commander": "^4.0.1",
-    "deepmerge": "^4.2.2",
-    "dlv": "^1.1.3",
-    "estree-walker": "^0.9.0",
-    "fast-memoize": "^2.5.1",
-    "intl-messageformat": "^7.5.2",
-    "tiny-glob": "^0.2.6"
   }
 }
