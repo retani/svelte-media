@@ -1,5 +1,5 @@
 {
-  "name": "@spezifisch/svelte-media",
+  "name": "@retani/svelte-media",
   "version": "0.1.5",
   "main": "dist/svelte-media.js",
   "module": "dist/svelte-media.mjs",
@@ -50,7 +50,7 @@
     }
   },
   "peerDependencies": {
-    "svelte": "^3.48.0"
+    "svelte": "^4"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
